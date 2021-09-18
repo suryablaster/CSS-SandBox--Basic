@@ -3,15 +3,29 @@
 <head>
     <meta charset="utf-8">
     <title>Getting started with CSS</title>
-    <link rel="stylesheet" href="/style.css">
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <!-- internal css -->
+    <style>
+        #heading1 {
+            color: lightseagreen;
+        }
+    .para span{
+        color: lime;
+    }
+
+    p {
+        background-color: sandybrown;
+    }
+    </style>
 </head>
 
 <body>
 
-    <h1>I am a level one heading</h1>
+    <h1 id="heading1">I am a level one heading</h1>
 
-    <p>This is a paragraph of text. In the text is a <span>span element</span>
-and also a <a href="https://example.com">link</a>.</p>
+    <p class="para">This is a paragraph of text. In the text is a <span>span element</span>
+       and also a <a href="https://example.com">link</a>.
+    </p>
 
     <p>This is the second paragraph. It contains an <em>emphasized</em> element.</p>
 
