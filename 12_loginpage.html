@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: darkgrey;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            background-color:mediumturquoise;
+            position: relative;
+            width: 300px;
+            height:500px ;
+            top: 100px;
+            left: 700px;
+        }
+        .container h1{
+            position: absolute;
+            top: 30px;
+            left: 100px;
+        }
+        .container free{
+            position: relative;
+            top: 40;
+            left: 20px;
+
+        }
+        .container form {
+            position:absolute;
+            top:100px;
+            left: 60px;
+        
+        }
+        .container form button{
+            width: 150px;
+            height: 40px;
+            background-color:#fff;
+            color:black;
+        }
+        .container form button:hover{
+            background-color: deeppink;
+        }
+        .footer{
+            position: relative;
+            top: 100px;
+            left: 730px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="formwrap">
+            <h1>Sign up</h1>
+            <!-- <p id="free"">It's free and only take a minute</p> -->
+            <form>
+                <div class="form-group">
+                    <label for="firstname">First Name</label><br>
+                    <input type="text" name="first Name" id="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastnamE">Last Name</label><br>
+                    <input type="text" name="last Name" id="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label><br>
+                    <input type="text" name="Email" email">
+                </div>
+                <div class="form-group">
+                    <label for="password">password</label><br>
+                    <input type="text" name="password" id="password">
+                </div>
+                <div class="form-group">
+                    <label for="conformpassword">conform password</label><br>
+                    <input type="text" name="conform password" id="conformpassword">
+                </div>
+                <br>
+                <button type="submit" class="btn">Sign up</button>
+                <!-- <p class="free2">By clicking the sign up button you afree to our Terms and condition and policy privacy.</p> -->
+            </form>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Already have an account? <a href="#">Login here</a></p>
+    </div>
+</body>
+</html>
