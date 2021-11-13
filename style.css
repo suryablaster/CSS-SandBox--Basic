@@ -1,13 +1,35 @@
-.item {
-    color: cyan;
-}
 
-.item2 {
+        *{
+            background-color: #caf0f8;
+            line-height: 1.5;
+        }
+        .imagesurya {
+            /* width: 350px;
+            height:350px; */
+            border: rgba(98, 0, 255, 0.418) dashed 5px;
+            margin-top: 40px;
+        }
+        /* .headerheading{
+            display: inline;
+        } */
 
-    font-size: xx-large;
-}
+        header{
+            border: black solid 5px;
+            text-align: center;
+        }
+        .education{
+            border: solid 5px rgb(89, 92, 94);
+        }
+        hr {
+            border: none;
+            border-top: dotted;
+            height: 3px;
+            width: 30px;
+        }
 
-.item3{
-    color: greenyellow;
-    font-size: xx-large;
-}
+        h1,h3{
+            font-display:unset;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#212529;
+        }
+      
